@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.photos-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.my-gallery {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+.photos-container > img,
+.my-gallery > img {
+	border: 0.1rem solid white;
+	border-radius: 0.7rem;
+	cursor: pointer;
+}
